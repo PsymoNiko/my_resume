@@ -59,18 +59,6 @@
     </style>
 </head>
 <body class="antialiased">
-    <!-- Chosen Palette: Calm Harmony Neutrals -->
-    <!-- Application Structure Plan: The SPA is designed as a guided narrative to maximize recruiter engagement, diverging from the linear PDF format. It starts with a high-impact Hero section for a strong first impression (30-second rule). An interactive Experience Timeline follows, making career progression tangible and allowing users to drill down into details. This is more engaging than a static list. A visual Skills Dashboard uses charts to quickly convey technical proficiency. A Project Showcase uses interactive cards to highlight practical work. A unique, dynamic "Value Proposition" section simulates resume tailoring, allowing users to see how Ali's skills align with different job personas (e.g., Lead Engineer, Cloud Specialist), directly demonstrating the "tailoring" principle from the source report. This structure transforms the resume from a passive document into an active, exploratory tool, designed for clarity, impact, and demonstrating a proactive, results-oriented mindset. -->
-    <!-- Visualization & Content Choices: 
-        - Hero: Goal: Inform. Method: HTML/CSS. Interaction: Links. Justification: Provides immediate, critical info.
-        - Experience: Goal: Organize/Inform. Method: HTML/CSS Vertical Timeline. Interaction: Click-to-reveal details. Justification: Shows career progression visually and reduces initial cognitive load. Bullet points are rewritten with action verbs and illustrative quantifications to show impact.
-        - Skills: Goal: Compare/Inform. Method: Chart.js Bar Charts. Interaction: Tooltips on hover. Justification: More visually compelling and easier to scan than a text list. Confirms NO SVG/Mermaid.
-        - Projects: Goal: Organize/Showcase. Method: HTML/CSS Cards. Interaction: Clickable links. Justification: Organizes distinct pieces of work cleanly.
-        - Value Proposition: Goal: Persuade/Tailor. Method: HTML/JS. Interaction: Button clicks to dynamically change text. Justification: A powerful, interactive demonstration of how the candidate can be tailored to specific roles, a core concept of the efficiency report.
-        - Quantifications: The resume's original bullet points have been enhanced with strong action verbs and *illustrative* metrics (e.g., "improved performance by 25%") to demonstrate the "Quantify Achievements" principle. A disclaimer is included.
-    -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-
     <header id="header" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="#" class="text-xl font-bold text-[#2c3e50]">Ali Mohammadnia</a>
@@ -80,7 +68,7 @@
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#value" class="nav-link">Value Proposition</a>
             </div>
-            <a href="mailto:ali.mohammadnia.a@gmail.com" class="hidden md:block bg-[#4A90E2] text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Contact Me</a>
+            <a href="mailto:alimohammadnia127@gmail.com" class="hidden md:block bg-[#4A90E2] text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Contact Me</a>
             <button id="mobile-menu-button" class="md:hidden text-2xl">☰</button>
         </nav>
         <div id="mobile-menu" class="hidden md:hidden bg-white py-4">
@@ -88,7 +76,7 @@
             <a href="#skills" class="block text-center py-2 text-lg nav-link">Skills</a>
             <a href="#projects" class="block text-center py-2 text-lg nav-link">Projects</a>
             <a href="#value" class="block text-center py-2 text-lg nav-link">Value Proposition</a>
-            <a href="mailto:ali.mohammadnia.a@gmail.com" class="block text-center w-1/2 mx-auto mt-4 bg-[#4A90E2] text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Contact Me</a>
+            <a href="mailto:alimohammadnia127@gmail.com" class="block text-center w-1/2 mx-auto mt-4 bg-[#4A90E2] text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Contact Me</a>
         </div>
     </header>
 
@@ -96,13 +84,40 @@
         
         <section id="hero" class="text-center mb-24">
             <h1 class="text-4xl md:text-6xl font-bold text-[#2c3e50] mb-4">Ali Mohammadnia</h1>
-            <h2 class="text-2xl md:text-3xl text-[#4A90E2] font-semibold mb-6">Senior Backend Engineer</h2>
+            <h2 class="text-2xl md:text-3xl text-[#4A90E2] font-semibold mb-6">Back-end Engineer | DevOps</h2>
             <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">
-                A results-driven Senior Backend Engineer with over 6 years of experience in designing, developing, and deploying scalable, high-performance microservices and distributed systems. Proven ability to lead projects, optimize system architecture, and drive technical innovation in fast-paced environments.
+                Eager Software Engineer with 4 years of programming experience. Possesses a passion for learning new technologies and a strong foundation in coding principles. Driven to contribute to challenging projects and collaborate effectively within a team.
             </p>
-            <div class="flex justify-center space-x-6 text-2xl text-gray-600">
-                <a href="https://github.com/ali-mohammadnia" target="_blank" class="hover:text-[#4A90E2] transition-colors">GitHub</a>
-                <a href="https://www.linkedin.com/in/ali-mohammadnia/" target="_blank" class="hover:text-[#4A90E2] transition-colors">LinkedIn</a>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 text-lg text-gray-600">
+                <span>alimohammadnia127@gmail.com</span>
+                <span>+98 910 200 1647</span>
+                <span>Born: 1997 May 21</span>
+            </div>
+            <div class="flex justify-center space-x-6 text-2xl text-gray-600 mt-6">
+                <a href="https://github.com/PsymoNiko" target="_blank" class="hover:text-[#4A90E2] transition-colors" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://stackoverflow.com/users/19601943/ali-mohammadnia?tab=profile" target="_blank" class="hover:text-[#4A90E2] transition-colors" title="StackOverflow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </a>
+                <a href="https://app.daily.dev/psymoniko" target="_blank" class="hover:text-[#4A90E2] transition-colors" title="Daily.dev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" class="hover:text-[#4A90E2] transition-colors" title="SoloLearn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                </a>
             </div>
         </section>
 
@@ -111,41 +126,36 @@
             <div class="relative max-w-3xl mx-auto border-l-2 border-gray-200 pl-8">
                 
                 <div class="mb-12 timeline-item">
-                    <h4 class="text-2xl font-semibold">Senior Software Engineer</h4>
-                    <p class="text-lg text-gray-700 mb-1">Snapp! - Ride Hailing</p>
-                    <p class="text-md text-gray-500 mb-4">Sep 2020 – Present</p>
+                    <h4 class="text-2xl font-semibold">Software Engineer | DevOps</h4>
+                    <p class="text-lg text-gray-700 mb-1">Raydad</p>
+                    <p class="text-md text-gray-500 mb-4">May 2023 – Present</p>
                     <ul class="list-disc list-inside space-y-3 text-gray-600">
-                        <li>Spearheaded the backend development for the new generation of ride-hailing service, architected to handle over 1M daily requests and improving system scalability by 40%.</li>
-                        <li>Engineered and deployed a real-time monitoring and alerting system, resulting in a 99.9% uptime and reducing critical incident response time by 30%.</li>
-                        <li>Optimized database queries and caching strategies (Redis, Aerospike), which decreased average API response time by 200ms and enhanced user experience.</li>
-                        <li>Collaborated with a team of 10+ engineers, mentoring junior developers and leading code reviews to maintain high standards of code quality and consistency.</li>
-                        <li>Led the migration of legacy services to a modern microservices architecture using Go, Docker, and Kubernetes, improving deployment frequency by 50%.</li>
+                        <li>Designed and managed a master-slave PostgreSQL architecture, enhancing database performance by 20%.</li>
+                        <li>Planned secure user authentication using JWT and SSO solutions by FastAPI, including OTP verification via Redis, resulting in a 30% reduction in security incidents.</li>
+                        <li>Leveraged Redis, RabbitMQ, and Celery to handle tasks and uploads, reducing system response times by 25%.</li>
+                        <li>Established CI/CD pipelines using GitHub Actions and Docker Compose, improving deployment efficiency by 40%.</li>
+                        <li>Set up Prometheus and Grafana for comprehensive monitoring and implemented request tracing with Jaeger, boosting system reliability.</li>
+                        <li>Configured Metabase for data analysis and reporting from PostgreSQL and MS-SQL databases, providing actionable insights to stakeholders.</li>
                     </ul>
                 </div>
 
                 <div class="mb-12 timeline-item">
-                    <h4 class="text-2xl font-semibold">Software Engineer</h4>
-                    <p class="text-lg text-gray-700 mb-1">Snapp! - Food</p>
-                    <p class="text-md text-gray-500 mb-4">Sep 2018 – Sep 2020</p>
+                    <h4 class="text-2xl font-semibold">Remote Backend Developer</h4>
+                    <p class="text-lg text-gray-700 mb-1">Lexico Novin System (English Learning Application)</p>
+                    <p class="text-md text-gray-500 mb-4">May 2024 – September 2024</p>
                     <ul class="list-disc list-inside space-y-3 text-gray-600">
-                        <li>Developed and maintained multiple microservices for the food delivery platform using Go and Python, supporting a 200% growth in order volume over two years.</li>
-                        <li>Implemented a new asynchronous order processing system with RabbitMQ, which increased throughput by 60% during peak hours.</li>
-                        <li>Designed and integrated third-party payment gateways, expanding payment options for users and contributing to a 15% increase in conversion rates.</li>
-                        <li>Authored comprehensive unit and integration tests, achieving 90% code coverage and significantly reducing production bugs.</li>
+                        <li>Implemented OAuth 2.0 login via Google Cloud Console, increasing application security.</li>
+                        <li>Integrated MINIO for multimedia file storage, optimizing the retrieval speed of media assets.</li>
+                        <li>Supported multilingual user experience by customizing API responses and error messages.</li>
                     </ul>
                 </div>
 
                 <div class="timeline-item">
-                    <h4 class="text-2xl font-semibold">Software Engineer</h4>
-                    <p class="text-lg text-gray-700 mb-1">Asiatech</p>
-                    <p class="text-md text-gray-500 mb-4">Sep 2017 – Sep 2018</p>
-                    <ul class="list-disc list-inside space-y-3 text-gray-600">
-                        <li>Developed a customer relationship management (CRM) panel using Java and Spring Framework, automating workflows that saved an estimated 20 hours of manual work per week.</li>
-                        <li>Maintained and enhanced legacy systems, successfully resolving over 100 bug tickets and improving system stability.</li>
-                    </ul>
+                    <h4 class="text-2xl font-semibold">Junior Developer</h4>
+                    <p class="text-lg text-gray-700 mb-1">Makeen Academy</p>
+                    <p class="text-md text-gray-500 mb-4">Earlier Experience</p>
                 </div>
             </div>
-             <p class="text-center text-sm text-gray-500 mt-8 italic">*Note: The quantified achievements above are illustrative examples based on the resume's content, designed to demonstrate impact as recommended by resume efficiency best practices.</p>
         </section>
 
         <section id="skills" class="mb-24">
@@ -158,34 +168,27 @@
         </section>
 
         <section id="projects" class="mb-24">
-            <h3 class="text-3xl font-bold text-center mb-12">Key Projects</h3>
+            <h3 class="text-3xl font-bold text-center mb-12">Personal Projects</h3>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <a href="https://github.com/ali-mohammadnia/sart" target="_blank" class="card block bg-white p-6 rounded-xl shadow-md hover:shadow-xl">
-                    <h4 class="text-xl font-bold text-[#4A90E2] mb-2">Sart</h4>
-                    <p class="text-gray-600 mb-4">A high-performance, in-memory, and lock-free radix tree implementation in Go.</p>
+                <a href="https://github.com/PsymoNiko/bedepacko" target="_blank" class="card block bg-white p-6 rounded-xl shadow-md hover:shadow-xl">
+                    <h4 class="text-xl font-bold text-[#4A90E2] mb-2">Bede Package Manager</h4>
+                    <p class="text-gray-600 mb-4">A lightweight package manager for Linux systems, designed for simplicity and efficiency in software installation and management.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Go</span>
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Data Structures</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Bash</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Linux</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Package Management</span>
                     </div>
                 </a>
-                <a href="https://github.com/ali-mohammadnia/rpc" target="_blank" class="card block bg-white p-6 rounded-xl shadow-md hover:shadow-xl">
-                    <h4 class="text-xl font-bold text-[#4A90E2] mb-2">RPC</h4>
-                    <p class="text-gray-600 mb-4">A simple RPC framework over TCP, supporting both JSON and Gob protocols.</p>
+                <div class="card block bg-white p-6 rounded-xl shadow-md hover:shadow-xl">
+                    <h4 class="text-xl font-bold text-[#4A90E2] mb-2">Online Chat and Video Call</h4>
+                    <p class="text-gray-600 mb-4">Developed a real-time online chat application using Django Channels and WebSockets.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Go</span>
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Networking</span>
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">TCP</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Python</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Django</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">WebSockets</span>
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Selenium</span>
                     </div>
-                </a>
-                <a href="https://github.com/ali-mohammadnia/chapar" target="_blank" class="card block bg-white p-6 rounded-xl shadow-md hover:shadow-xl">
-                    <h4 class="text-xl font-bold text-[#4A90E2] mb-2">Chapar</h4>
-                    <p class="text-gray-600 mb-4">A lightweight, flexible, and powerful HTTP client for Go, inspired by Postman.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">Go</span>
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">HTTP</span>
-                        <span class="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-md">API Testing</span>
-                    </div>
-                </a>
+                </div>
             </div>
         </section>
 
@@ -195,9 +198,9 @@
                 My experience is versatile. Click below to see how my skills align with different potential roles, demonstrating my ability to deliver value across various engineering challenges.
             </p>
             <div class="flex flex-wrap justify-center gap-4 mb-8">
-                <button data-role="lead" class="role-btn bg-[#4A90E2] text-white px-5 py-2 rounded-lg">Lead Engineer</button>
-                <button data-role="cloud" class="role-btn bg-white text-[#4A90E2] border border-[#4A90E2] px-5 py-2 rounded-lg">Cloud & DevOps Specialist</button>
-                <button data-role="performance" class="role-btn bg-white text-[#4A90E2] border border-[#4A90E2] px-5 py-2 rounded-lg">Performance & Scalability Expert</button>
+                <button data-role="backend" class="role-btn bg-[#4A90E2] text-white px-5 py-2 rounded-lg">Backend Engineer</button>
+                <button data-role="devops" class="role-btn bg-white text-[#4A90E2] border border-[#4A90E2] px-5 py-2 rounded-lg">DevOps Specialist</button>
+                <button data-role="database" class="role-btn bg-white text-[#4A90E2] border border-[#4A90E2] px-5 py-2 rounded-lg">Database Architect</button>
             </div>
             <div id="value-text-container" class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md text-left">
                 <p id="value-text" class="text-gray-700 text-lg leading-relaxed"></p>
@@ -205,19 +208,18 @@
         </section>
         
         <section id="education" class="text-center">
-             <h3 class="text-3xl font-bold mb-8">Education & Languages</h3>
+             <h3 class="text-3xl font-bold mb-8">Certificates & Languages</h3>
              <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                  <div class="bg-white p-6 rounded-xl shadow-md">
-                     <h4 class="text-2xl font-semibold mb-2">Education</h4>
-                     <p class="text-lg font-medium">M.Sc. in Computer Engineering</p>
-                     <p class="text-gray-600 mb-4">Amirkabir University of Technology, 2018 – 2021</p>
-                     <p class="text-lg font-medium">B.Sc. in Computer Engineering</p>
-                     <p class="text-gray-600">Shahid Beheshti University, 2014 – 2018</p>
+                     <h4 class="text-2xl font-semibold mb-2">Certificates</h4>
+                     <p class="text-lg font-medium">Python Certificate from Tehran University</p>
+                     <p class="text-lg font-medium">Python Programming</p>
+                     <p class="text-gray-600 mb-4">SoloLearn — Beginner | Intermediate | Core</p>
                  </div>
                  <div class="bg-white p-6 rounded-xl shadow-md">
                      <h4 class="text-2xl font-semibold mb-2">Languages</h4>
-                     <p class="text-lg font-medium">Persian <span class="text-gray-500">(Native)</span></p>
-                     <p class="text-lg font-medium">English <span class="text-gray-500">(Professional Working Proficiency)</span></p>
+                     <p class="text-lg font-medium">English <span class="text-gray-500">(IELTS 6.5)</span></p>
+                     <p class="text-lg font-medium">Russian</span></p>
                  </div>
              </div>
         </section>
@@ -260,10 +262,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const skillsData = {
-        labels: ['Go', 'Python', 'Java', 'PostgreSQL', 'MongoDB', 'Redis', 'Kubernetes', 'Docker', 'AWS', 'Microservices'],
+        labels: ['Python', 'JavaScript', 'Kotlin', 'HTML', 'Django', 'FastAPI', 'PostgreSQL', 'Redis', 'MongoDB', 'Docker', 'RabbitMQ', 'Celery', 'Prometheus', 'Grafana', 'Bash'],
         datasets: [{
-            label: 'Years of Experience / Proficiency',
-            data: [6, 5, 2, 6, 4, 5, 4, 5, 4, 6],
+            label: 'Proficiency Level',
+            data: [8, 6, 5, 7, 8, 7, 8, 7, 6, 7, 6, 6, 6, 6, 7],
             backgroundColor: 'rgba(74, 144, 226, 0.6)',
             borderColor: 'rgba(74, 144, 226, 1)',
             borderWidth: 1
@@ -290,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 label += ': ';
                             }
                             if (context.parsed.x !== null) {
-                                label += `${context.parsed.x} (Illustrative value)`;
+                                label += `${context.parsed.x}/10`;
                             }
                             return label;
                         }
@@ -300,15 +302,16 @@ document.addEventListener('DOMContentLoaded', function () {
             scales: {
                 x: {
                     beginAtZero: true,
+                    max: 10,
                     title: {
                         display: true,
-                        text: 'Relative Experience & Proficiency Level'
+                        text: 'Proficiency Level (1-10)'
                     }
                 },
                 y: {
                     ticks: {
                         font: {
-                            size: 14
+                            size: 12
                         }
                     }
                 }
@@ -317,9 +320,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const valuePropositionData = {
-        lead: `As a <strong>Lead Engineer</strong>, I bring proven experience in spearheading backend development for large-scale systems. My work on the ride-hailing platform involved architecting for over 1M daily requests, mentoring a team of 10+ engineers, and leading the migration to a modern microservices stack. I excel at driving technical vision and ensuring high standards of code quality and system reliability.`,
-        cloud: `As a <strong>Cloud & DevOps Specialist</strong>, I have hands-on experience deploying and managing systems using Docker, Kubernetes, and AWS. I've successfully led migrations to microservices architectures, improving deployment frequency by 50%. My expertise includes building CI/CD pipelines, implementing robust monitoring with Prometheus/Grafana, and ensuring high availability in a cloud-native environment.`,
-        performance: `As a <strong>Performance & Scalability Expert</strong>, my focus is on building and optimizing systems that can handle massive scale. I've decreased API response times by 200ms through advanced caching (Redis, Aerospike) and query optimization. My work on asynchronous systems with RabbitMQ increased throughput by 60%, and my open-source projects like 'Sart' demonstrate a deep understanding of high-performance data structures.`
+        backend: `As a <strong>Backend Engineer</strong>, I specialize in building robust and scalable systems using Python, Django, and FastAPI. My experience includes developing real-time applications with WebSockets, implementing secure authentication systems with JWT and OAuth, and optimizing database performance. I'm particularly skilled at creating efficient APIs and implementing best practices in software design and architecture.`,
+        devops: `As a <strong>DevOps Specialist</strong>, I have hands-on experience with CI/CD pipelines using GitHub Actions, containerization with Docker, and system monitoring with Prometheus and Grafana. I've successfully implemented Redis for caching and Celery for asynchronous task processing, significantly improving system performance. My expertise includes setting up comprehensive monitoring solutions and ensuring high system reliability.`,
+        database: `As a <strong>Database Architect</strong>, I've designed and managed master-slave PostgreSQL architectures, achieving 20% performance improvements. I'm proficient in both SQL (PostgreSQL, MS-SQL) and NoSQL (Redis, MongoDB) databases, and have experience configuring Metabase for data analysis and reporting. My skills include query optimization, database security, and implementing efficient data access patterns.`
     };
 
     const roleButtons = document.querySelectorAll('.role-btn');
@@ -345,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    updateValueText('lead');
+    updateValueText('backend');
 });
 </script>
 </body>
